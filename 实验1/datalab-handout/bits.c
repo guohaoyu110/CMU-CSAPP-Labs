@@ -140,7 +140,8 @@ NOTES:
  *   Rating: 1
  */
 int bitOr(int x, int y) {
-  return 2;
+  //return 2;
+  return 
 }
 /* 
  * specialBits - return bit pattern 0xffca3fff
@@ -150,10 +151,8 @@ int bitOr(int x, int y) {
  */
 int specialBits(void) {
 
-
-
-
-    return 2;
+    
+    //return 2;
 
 }
 //2
