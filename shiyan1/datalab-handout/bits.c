@@ -140,7 +140,7 @@ NOTES:
  *   Rating: 1
  */
 int bitOr(int x, int y) {
-  return ~(~x)&(~y);
+  return ~(~x & ~y);
   
   //return 2;
 }
@@ -173,8 +173,8 @@ int specialBits(void) {
  *   Rating: 1
  */
 int isZero(int x) {
-  
   return !x;
+  //这个符号 ~ 是按位取反
 }
 /* 
  * anyEvenBit - return 1 if any even-numbered bit in word set to 1
@@ -184,6 +184,7 @@ int isZero(int x) {
  *   Rating: 2
  */
 int anyEvenBit(int x) {
+  
   return 2;
 }
 /* 
@@ -206,6 +207,7 @@ int negate(int x) {
  *   Rating: 2 
  */
 int leastBitPos(int x) {
+  //return 
   return 2;
 }
 //3
@@ -218,7 +220,8 @@ int leastBitPos(int x) {
  *   Rating: 3 
  */
 int rotateLeft(int x, int n) {
-  return 2;
+  return (x<<n);
+  //return 2;
 }
 /* 
  * divpwr2 - Compute x/(2^n), for 0 <= n <= 30
@@ -229,7 +232,8 @@ int rotateLeft(int x, int n) {
  *   Rating: 2
  */
 int divpwr2(int x, int n) {
-    return 2;
+  
+  return 2;
 }
 /* 
  * isLess - if x < y  then return 1, else return 0 
@@ -239,6 +243,7 @@ int divpwr2(int x, int n) {
  *   Rating: 3
  */
 int isLess(int x, int y) {
+  
   return 2;
 }
 //4
@@ -251,6 +256,7 @@ int isLess(int x, int y) {
  *   Rating: 4
  */
 int isPower2(int x) {
+  
   return 2;
 }
 /*
