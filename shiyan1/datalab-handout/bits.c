@@ -191,7 +191,9 @@ int anyEvenBit(int x) {
   int mask = 0x55;
   mask |= (mask << 8);
   mask |= (mask << 16);
+  //用这种方式得到mask的如题所要求的这种形式，就是看偶数位上是不是有
   return !!(x & mask);
+  //对于任何一个数字取非都是0，然后再取一次非，就是1了
   
 }
 /* 
@@ -203,7 +205,7 @@ int anyEvenBit(int x) {
  */
 int negate(int x) {
   return ~x + 1;
-  //return 2;
+  //这个符号可以带入符号数，第一个数位是负号。。。
 }
 /* 
  * leastBitPos - return a mask that marks the position of the
@@ -258,7 +260,7 @@ int rotateLeft(int x, int n) {
      *               (1 << (32 - n - 1)) << 1
      *               in this way, we can make sure each shift is less than 32
      */
-  int minusOne = ~0x1 + 1; // 2 ops
+  int minusOne = ~0x1 + 1; // 2 ops 这是专门的求负数的方法
   int minusN = ~n + 1; // 2 ops
   int maskB = ((0x1 << (0x20 + minusN + minusOne)) << 0x1) + minusOne; // 5 ops
   int maskA = ~maskB; // 1 op
