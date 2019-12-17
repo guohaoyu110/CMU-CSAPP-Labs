@@ -6,7 +6,7 @@ Awesome Labs!
 
 - [x] Lab 1: datalab
 
-- [] Lab 2: bomblab
+- [ ] Lab 2: bomblab
 
 - [ ] Lab 3: attacklab
 
@@ -18,4 +18,6 @@ Awesome Labs!
 
 - [ ] Lab 7: proxylab
 
-Past exams: http://www.cs.cmu.edu/~213/oldexams/
+Past exams: 
+
+http://www.cs.cmu.edu/~213/oldexams/
