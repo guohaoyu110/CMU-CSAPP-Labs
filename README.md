@@ -6,7 +6,7 @@ Awesome Labs!
 
 - [x] Lab 1: datalab
 
-- [ ] Lab 2: bomblab
+- [] Lab 2: bomblab
 
 - [ ] Lab 3: attacklab
 
