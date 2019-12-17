@@ -17,3 +17,5 @@ Awesome Labs!
 - [ ] Lab 6: malloclab
 
 - [ ] Lab 7: proxylab
+
+Past exams: http://www.cs.cmu.edu/~213/oldexams/
